@@ -46,3 +46,13 @@ set number
 inoremap <expr> <CR> pumvisible() ? "\<C-Y>" : "\<CR>"
 
 
+
+"COMMANDS AND SHORTCUTS
+
+" Shortcut to see diff since last save (in the same file):
+command DiffSave execute 'w !git diff --no-index % -'
+command DiffHead execute '!git difftool --tool=vimdiff'
+
+
+
+
