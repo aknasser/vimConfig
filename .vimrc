@@ -9,6 +9,7 @@ Plug 'pangloss/vim-javascript'
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'dikiaap/minimalist'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'raimondi/delimitmate'
 
 call plug#end()
 
